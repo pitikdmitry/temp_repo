@@ -7,6 +7,7 @@ def fizzbuzz(n):
         elif i % 3 == 0:
             results.append("Fizz")
         elif i % 5 == 0:
+            a = 5 / 0
             results.append("Buzz")
         else:
             results.append(str(i))
